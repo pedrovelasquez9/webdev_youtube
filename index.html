@@ -6,22 +6,57 @@
     <title>Mi primer doc HTML</title>
   </head>
   <body>
-    <h1>Esto es un título principal</h1>
-    <h2>Esto es un h2</h2>
-    <h3>Esto es un h3</h3>
-    <h4>Esto es un h4</h4>
-    <h5>Esto es un h5</h5>
-    <h6>Esto es un h6</h6>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde sint,
-      eveniet tempora corporis esse soluta deserunt cumque corrupti debitis,
-      eaque, quidem pariatur nulla! Dolores, totam deserunt. Illo, explicabo
-      tempora.
-    </p>
-    <a href="https://google.com" target="_blank">Ir a Google</a>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#lecciones">Lecciones</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <!-- 
     <img
       src="https://images.unsplash.com/photo-1451772741724-d20990422508?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       alt="Árbol de navidad"
-    />
+    />-->
+    <header id="inicio">
+      <h1>Mi encabezado de página</h1>
+    </header>
+    <main>
+      <article id="lecciones">
+        <h1>Curso de desarrollo web</h1>
+        <section>
+          <h2>Lección 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            accusantium minus recusandae deleniti atque, excepturi est dicta,
+            sed sapiente nam obcaecati culpa ducimus ab iste beatae tempore,
+            delectus asperiores impedit.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+            id magni quidem at culpa. Aperiam hic aliquid id quos. Perspiciatis
+            totam reprehenderit odio maxime cupiditate, neque fugiat perferendis
+            cum ea.
+          </p>
+        </section>
+        <aside>
+          <p>Autor: Pedro Plasencia</p>
+        </aside>
+      </article>
+      <article id="about">
+        <h2>Acerca de</h2>
+        <section>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis quibusdam aperiam, doloremque excepturi labore
+            accusantium natus magni, nostrum numquam voluptatum voluptatibus
+            voluptate recusandae eos neque modi dolor suscipit illum in!
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>Este es mi pie de página</p>
+    </footer>
   </body>
 </html>
